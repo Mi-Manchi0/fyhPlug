@@ -1,0 +1,24 @@
+{
+	"name": "fyh-plug-snippets",
+	"displayName": "fyh-plug-snippets",
+	"publisher": "MiManchi0528",
+	"description": "代码片段库",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.82.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"repository": {
+		"url": "https://github.com/Mi-Manchi0/fyhPlug.git"
+	},
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	}
+}
